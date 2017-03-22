@@ -1,0 +1,62 @@
+[draggable] {
+  /* Allows elements to be draggable in old webkit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+    transition-duration: 1s ;
+}
+body{
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;  
+}
+div.drag{
+    height:30px;
+	line-height:30px;
+    width:100px;
+    border:2px solid black;
+    text-align: center;
+    color:blue;
+    border-radius: 5px;
+    margin-top: 3px ;
+
+}
+.over {
+    border: 1px dashed #000 !important;
+}
+.dropBox{
+    height:60px !important;
+    width:200px !important;
+    border:2px solid black;
+    text-align: center !important;
+}
+td{
+    border:1px solid teal;
+    text-align: center;
+    height: 100px;
+    width: 50px;
+}
+.leftSide{
+    height: 100%;
+    width:50%;
+    float: left;
+}
+.rightSide{
+    height: 100%;
+    width:50%;
+    float: right;
+}
+.hours{
+    height: 50%;
+    border-left: 1px solid black;
+}
+.nameInTable{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.name{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

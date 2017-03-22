@@ -1,0 +1,59 @@
+.spons{
+    height: 0;
+}
+.logo{
+    position: relative;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    z-index: 3;
+    transition: 0.5s ease-out;
+    display: inline;
+    top:37.5px;
+}
+.logoLeft{
+    float: left;
+    left: 15px;
+}
+.logoRight{
+    float: right;
+    right: 15px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.title{
+    font-size: 120%;
+}
+.contact{
+    position: relative;
+    z-index: 2;
+    margin-top:50px;
+}
+.sponsContainer{
+    height: 175px;
+    width: 350px;
+    transition: 0.75s ease;
+}
+a{
+    color:white;
+}
+.info{
+    position: relative;
+}
+.contact .info{
+    margin-top: 0px;
+    top: 60%;
+}
+td{
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.full{
+    height:175px;
+    width: 175px;
+    top:0px;
+    left:0px;
+    border-radius: 0px;
+    box-shadow: 2px 2px 2px #888888;
+}
